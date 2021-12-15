@@ -1,0 +1,115 @@
+body {
+
+    margin:0;
+}
+
+header {
+    padding: 20px 20px 20px 0px;
+    background-color: rgb(56, 69, 75);
+    color:black;
+    font-size: 15px;
+    
+}
+.name {
+    position: relative;
+    top: 0;
+    left: 2;
+    font-size: 35px;
+    font-style: italic;
+    background-color:rgb(47, 147, 194) ;
+    height: 44px;
+    width: 200px;
+    text-indent: 17%;
+    
+}
+
+header nav  {
+    font: bold;
+    font-size: 20px;
+    font-family:monospace;
+    padding-left: 15px;
+    text-align: right;
+    margin:0%;
+    width: 100%;
+    
+}
+
+nav a {
+    color:coral;
+    font-family: cursive;
+    position:relative;
+    float:none;
+    
+
+
+}
+.nav a:hover {
+    background:rgb(195, 206, 206);
+    color:rgb(231, 222, 222);
+}
+
+.banner {
+    position:relative;
+    text-align:center;
+
+}
+
+.dream-big {
+    position:absolute;
+    bottom: 25px;
+    right:45px;
+    font-size: 50px;
+    background-color:rgb(109, 105, 105);
+    font-family: fantasy;
+    color:black;
+
+}
+
+#About-me { 
+    float:left;
+    width:30%;
+    height:280px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6px;
+    border-right-style: solid;
+    margin-right: 2px;
+    
+
+}
+
+#about-me-info {
+    
+    float:right;
+    width:68%;
+    height:280px;
+    display: flex;
+    justify-content: flex-start;
+    align-Items:center;
+    
+}
+    
+#work {
+    
+    float:left;
+    width:30%;
+    Height:400px;
+    Display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6px;
+    border-right-style: solid;
+    margin-right: 2px;
+
+}
+    
+
+
+
+
+
+    
+
+
+
