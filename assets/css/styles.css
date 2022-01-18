@@ -1,5 +1,5 @@
 body {
-
+    background-color: lightgray;
     margin:0;
 }
 
@@ -65,45 +65,37 @@ nav a {
 
 }
 
-#About-me { 
-    float:left;
-    width:30%;
-    height:280px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 6px;
-    border-right-style: solid;
-    margin-right: 2px;
+.About-Me { 
     
-
-}
-
-#about-me-info {
-    
-    float:right;
-    width:68%;
-    height:280px;
     display: flex;
     justify-content: flex-start;
-    align-Items:center;
-    
-}
-    
-#work {
-    
-    float:left;
-    width:30%;
-    Height:400px;
-    Display:flex;
-    justify-content: flex-end;
-    align-items: center;
     padding-right: 6px;
-    border-right-style: solid;
     margin-right: 2px;
+    margin-left: 50px;
+    
 
 }
+
+.About-Me h1 {
+
     
+    padding-right: 12px;
+    border-right-style: solid;
+    margin-right: 12px;
+}
+
+    
+.work-container {
+    width: 600px;
+    height: 400px;
+    background-color: lightcoral;
+    background-image: linear-gradient(bottom rgb(102, 37, 37));
+}
+
+.compete-sports {
+ 
+}
+
 
 
 
